@@ -1,0 +1,48 @@
+.biopage{
+    margin-top: 2rem;
+    display: flex;
+    background-color: #eee;
+}
+
+.bioimg{
+    padding: 1rem;
+}
+
+.bioimg img{
+    width: 25rem;
+    height: 30rem;
+    border-radius: 12px;
+}
+
+.explane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explane h1{
+    margin: 2rem;
+    margin-top: 0rem;
+}
+
+.explane p{
+    height: 20rem;
+    padding: 0 1.5rem  0 1.5rem ;
+}
+
+.downloadBtn{
+    padding: 1rem;
+    color: #f6f6f6;
+    background-color:  rgb(81, 210, 95);
+    border: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.downloadBtn:hover{
+    background-color: #333;
+    color: #eee;
+}

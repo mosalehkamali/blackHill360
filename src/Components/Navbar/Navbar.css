@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+
+
+#mainNav .logo img {
+	height: 37.5rem;
+	transition: all 0.5s ease;
+}
+
+#mainNav {
+	display: flex;
+	justify-content: space-between;
+	padding:  0px 1rem;
+	padding-right: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+	background-color: #eee;
+	transition: all 0.5s;
+}
+
+
+#mainNav ul {
+	display: flex;
+	align-items: center;
+	width: 10rem;
+	justify-content: space-around;
+	flex-direction: column; 
+	transition: all 0.5s;
+}
+
+#mainNav ul li a {
+	text-align: center;
+	cursor: pointer;
+	color: #333;
+	position: absolute;
+	transition: all 0.3s;
+}
+#mainNav ul li a:hover{
+	color: rgba(51, 51, 51, 0.438);
+	font-size: 1.07rem;
+}
+
+.bg-black {
+	background: #333 !important;
+}
+
+.bg-black ul{
+	flex-direction: row !important;
+	width: 25rem !important;
+	transition: all 0.3s;
+}
+.bg-black ul li a:hover{
+	font-size: 1.07rem;
+}
+
+.txt-white a{
+	color: #eee !important;
+}
+
+
+.logoChange img{
+	padding-right: 2rem;
+	transition: all 0.5s ease;
+	height: 4.25rem !important;
+	color: #eee;
+	filter:  invert(75%) sepia(100%) saturate(2%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}
+
+.discription h1{
+	font-family: myFirstFont !important ;
+	font-weight: 900;
+	color: #333;
+	position: fixed;
+	margin-bottom: 30rem;
+	
+}
+
+.discription p{
+	font-family: myFirstFont !important ;
+	padding: 0rem 10rem 0rem 10rem;
+	color: rgba(51, 51, 51, 0.582);
+}
+
+.discription{
+	display: flex;
+	align-items: center;
+	justify-content :center;
+	flex-direction: column; 
+	transition: all 0.5s;
+}
+
+@keyframes arrow {
+	0% {padding-top: 0;}
+	50% {padding-top: 1rem;}
+	100% {padding-top: 0;}
+}
+
+.discription a {
+	margin-top: 32rem;
+	position: fixed;
+	cursor: pointer;
+	color: rgba(51, 51, 51, 0.582);
+	font-size: 3rem;
+	font-weight: 600;
+	animation-name: arrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+	
+}
+
+.hidden{
+	display: none;
+}
